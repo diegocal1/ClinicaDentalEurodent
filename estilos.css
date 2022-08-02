@@ -1,0 +1,511 @@
+* {
+    margin: 5;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(imagenes/dentalwallpaper.jpg)
+}
+footer{
+    background-image: url(imagenes/dentalwallpaper2.jpg);
+}
+.bottom{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(-45deg, #ee7752,#e73c7e,#23a6d5,#23d5ab);
+    background-size: 400% 400%;
+    color: #fff;
+    padding: 0;
+}
+.middle{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(-45deg, #ee7752,#e73c7e,#23a6d5,#23d5ab);
+    background-size: 400% 400%;
+    color: #fff;
+    padding: 0;
+
+}
+.seccion1{
+    margin-top: 3%;
+}
+.font {
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    letter-spacing: 1;
+    
+}
+
+h2 {
+    font-style: italic;
+    font-family: 'Trocchi', serif;
+    color: rgb(34, 21, 109);
+    text-align: center;
+}
+
+.promo {
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(34, 21, 109);
+    text-align: center;
+}
+
+strong {
+    color: rgb(92, 81, 190);
+}
+
+.titulo {
+    color: rgb(34, 21, 109);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+
+}
+.f {
+    text-align: center;
+}
+
+.imp {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+div {
+    text-align: center;
+}
+
+.menu {
+    height: 20px;
+    padding: 20px;
+}
+
+.menu-list {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    height: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu-nav {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: lavender;
+
+}
+
+link:focus {
+    color: red;
+}
+
+
+
+.promo-content {
+    height: 650px;
+}
+
+form {
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    letter-spacing: 1;
+}
+
+    
+
+.video {
+    height: 350px;
+    background-color: #C5BED5;
+}
+
+.centrado {
+    margin: 5px;
+    border-top: solid 5px rgb(140, 122, 163);
+    border-right: solid 5px rgb(140, 122, 163);
+    border-bottom: solid 5px rgb(140, 122, 163);
+    border-left: solid 5px rgb(140, 122, 163);
+
+}
+
+.contenedor1,
+.contenedor2,
+.contenedor3 {
+    display: flex;
+    margin: 50px;
+    padding: 30px;
+
+
+}
+
+.padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hijo {
+    display: flex;
+    width: 200px;
+    padding: 10px;
+    height: 150px;
+    margin: 5px;
+    flex-wrap: wrap;
+
+
+}
+.faqcontainer{
+    margin-top: 50px;
+}
+.hijo:hover {
+    transform: scale(2);
+}
+
+.hijo2:hover {
+    transform: scale(2);
+}
+
+.hijo3:hover {
+    transform: scale(2);
+}
+
+.hijo4:hover {
+    transform: scale(2);
+}
+
+.hijo5:hover {
+    transform: scale(2);
+}
+
+.hijo6:hover {
+    transform: scale(2);
+}
+
+.hijo2 {
+    display: flex;
+    width: 200px;
+    padding: 10px;
+    height: 150px;
+    margin: 5px;
+    flex-wrap: wrap;
+
+}
+
+
+.hijo3 {
+    width: 200px;
+    padding: 10px;
+    height: 150px;
+    margin: 5px;
+    flex-wrap: wrap;
+
+}
+
+
+
+.hijo4 {
+    display: flex;
+    width: 200px;
+    padding: 10px;
+    height: 150px;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.hijo5 {
+    display: flex;
+    width: 200px;
+    padding: 10px;
+    height: 150px;
+    margin: 5px;
+    flex-wrap: wrap;
+
+}
+
+
+.hijo6 {
+    display: flex;
+    width: 200px;
+    padding: 10px;
+    height: 150px;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+.container1{
+    margin: auto;
+}
+
+.contenedormodal{
+    display: flex;
+    justify-content: center;
+}
+
+.servicios{
+    display: flex;
+    justify-content:space-around ;
+}
+
+
+.containerservicios{
+    margin-top: 20%;
+}
+.container{
+    margin-top: 5%;
+    background-image: url();
+}
+.servicios-listcontainer{
+
+    display: flex;
+    justify-content: space-around;
+    color: #fffF;
+    font-size: 20px;
+    background-color: rgb(79, 161, 209);
+}
+.servicioslist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.consultorio-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.col-r{
+    background-color: rgb(121, 181, 241);
+    color: floralwhite;
+    padding: 5px;
+}
+li{
+    display: inline-block;
+}
+
+.formulario{
+   
+    background-image: url(imagenes/eurodent1.jpeg);
+   width: 50%;
+   display: flex;
+   align-items: center;
+}
+.formulario-container{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+form{
+    font-size: 20px;
+}
+.col-sm{
+    width: 100%;
+    padding: 30px;
+}
+
+
+.row{
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #350E8E;
+    height: 50%;
+    padding: 5%;
+    color: white;
+}
+.carousel-inner{
+    height: 10%;
+    width: 10;
+    padding: 100px;
+    margin:2px;
+   
+    
+}
+.protocolo-container{
+    background:linear-gradient(-45deg, #ee7752,#e73c7e,#23a6d5,#23d5ab);
+    background-size: 400% 400%;
+    padding: 10px;
+    
+
+}
+.bottom{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.especialidad1,.especialidad2,.especialidad3,.especialidad4,.especialidad5,.especialidad6{
+    margin: 30px;
+    background:linear-gradient(-45deg, #ee7752,#e73c7e,#23a6d5,#23d5ab);
+    background-size: 400% 400%;
+    width:20%;
+}
+.especialidad-container{
+    display: flex;
+    justify-content: center;
+    padding:auto
+}
+
+.servicios-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactanos{
+    display: flex;
+    justify-content: center;
+}
+/*Table Style*/
+@media only screen and (min-width:401px) and (max-width:960px) {
+    body {
+        background-color:rgb(253, 253, 253)
+    }
+    .servicios-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .servicios-listcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .padre{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .especialidad-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 300%;
+        padding-left: 20%;
+        
+    }
+    .protocolo-container{
+        width: 250%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .formulario-container{
+      width: 75%;
+      display: flex;
+      margin:auto;
+    }
+    form{
+        width: 50%;
+        font-size: small;
+        align-items: left;
+    }
+    textarea{
+        width: 180px;
+    }
+  .especialidad1:hover,.especialidad2:hover,.especialidad3:hover,.especialidad4:hover,.especialidad5:hover,.especialidad6:hover{
+      transform: scale(2);
+      width: 20%;
+      padding: 5%;      
+  } 
+  .consultorio-container{
+      display: flex;
+      width: 5%;
+      height: 5%;
+  }
+
+
+}
+
+/*Desktop Style*/
+@media only screen and (min-width:961px) {
+    body {
+        background-color: #fff
+        ;
+    }
+}
+
+/*Mobile Style*/
+
+@media only screen and (max-width:400px) {
+    body {
+        background-color:rgb(253, 253, 253)
+    }
+    .servicios-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .container{
+        margin-top: 20px;
+    }
+    .servicios-listcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .padre{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .especialidad-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 300%;
+        padding-left: 20%;
+        
+    }
+    .carousel-inner{
+    padding: 4%;
+    }
+    .protocolo-container{
+        width:200%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .formulario-container{
+      width: 95%;
+      display: flex;
+      margin:auto;
+    }
+    form{
+        width: 50%;
+        font-size: small;
+        align-items: left;
+    }
+    textarea{
+        width: 160px;
+    }
+  .especialidad1:hover,.especialidad2:hover,.especialidad3:hover,.especialidad4:hover,.especialidad5:hover,.especialidad6:hover{
+      transform: scale(2);
+      width: 20%;
+      padding: 5%;      
+  } 
+  .consultorio-container{
+      display: flex;
+      width: 5%;
+      height: 5%;
+  }
+
+
+
+}  
